@@ -22,9 +22,9 @@ export default function Home() {
           </h1>
         </header>
         <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <div className="mb-4 w-full max-w-3xl text-center text-base text-gray-700 dark:text-gray-300">
-  This page is for the lelong domain, u want it can pm me
-</div>
+          <div className="mb-4 w-full max-w-3xl text-center text-base text-gray-700 dark:text-gray-300">
+            This page is for the lelong domain, u want it can pm me
+          </div>
           {/* Domain List Section */}
           <section className="w-full max-w-3xl bg-white dark:bg-neutral-900 rounded-lg shadow p-8">
             <h2 className="text-xl font-bold mb-4 text-gray-800 dark:text-gray-100">
@@ -53,27 +53,51 @@ export default function Home() {
             </ul>
           </section>
         </main>
-                <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
+        <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
           <div className="text-center text-sm text-gray-600 dark:text-gray-400">
             <div>
               <span className="font-semibold">Contact:</span>
             </div>
             <div>
-              📞 <a href="tel:+60123456789" className="hover:underline">+60 12-345 6789</a>
+              📞{" "}
+              <a href="tel:+60123456789" className="hover:underline">
+                +60 12-345 6789
+              </a>
             </div>
             <div>
-              📧 <a href="mailto:your.email@example.com" className="hover:underline">your.email@example.com</a>
+              📧{" "}
+              <a
+                href="mailto:your.email@example.com"
+                className="hover:underline"
+              >
+                your.email@example.com
+              </a>
             </div>
             <div className="flex gap-2 justify-center mt-1">
-              <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              <a
+                href="https://twitter.com/yourhandle"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
                 Twitter
               </a>
               <span>|</span>
-              <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              <a
+                href="https://facebook.com/yourprofile"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
                 Facebook
               </a>
               <span>|</span>
-              <a href="https://instagram.com/yourprofile" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              <a
+                href="https://instagram.com/yourprofile"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
                 Instagram
               </a>
             </div>
